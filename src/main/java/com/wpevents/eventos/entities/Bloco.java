@@ -81,5 +81,7 @@ public class Bloco {
 		return Objects.equals(id, other.id);
 	}
 	
-	
+	public Atividade getAtividade() {
+		return atividade;
+	}
 }
